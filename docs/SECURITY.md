@@ -7,7 +7,7 @@ repositories managed through our GitHub organization.
 
 **Please do not report security vulnerabilities through public GitHub issues.**
 
-Instead, contacting us [by email](mailto:contact@sidecloud.cc) is recommended. You should receive a response within 24
+Instead, contacting us [by email](mailto:jp@8void.com) is recommended. You should receive a response within 24
 hours.
 
 ## Preferred Languages

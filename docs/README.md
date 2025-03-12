@@ -23,7 +23,7 @@ Forward users' messages to topics in the group. Each user corresponds to a topic
 1. Create a bot from [@BotFather](https://t.me/BotFather) and get the token.
 2. Create a group with topics, and add the bot as an admin.
 3. Get the group ID.
-   This step can be done by inviting [@sc_ui_bot](https://t.me/sc_ui_bot) to the group and use the command `/id`.
+   This step can be done by inviting [@get_tg_info_bot](https://t.me/get_tg_info_bot) to the group and use the command `/id`.
 4. Deploy BetterForward to a server.
 
 Any messages sent to the bot will be forwarded to the corresponding topic in the group.
@@ -49,7 +49,7 @@ docker run -d --name betterforward \
     -e LANGUAGE=<language> \
     -v /path/to/data:/app/data \
     --restart unless-stopped \
-    pplulee/betterforward:latest
+    jp0id/betterforward:latest
 ```
 
 ## Upgrade
@@ -75,8 +75,6 @@ containrrr/watchtower -cR \
 - `/unban [User ID]`: Reinstates the ability for a user to send messages. If no User ID is specified, the command will
   apply to the user in the current conversation thread.
 
-## Community
-
-- Telegram Channel [@betterforward](https://t.me/betterforward)
-
 Please use `issues` for bug reports and feature requests.
+
+> forked from SideCloudGroup/BetterForward

@@ -20,7 +20,7 @@
 
 1. 从 [@BotFather](https://t.me/BotFather) 创建一个机器人并获取 token。
 2. 创建一个带有主题的群组，并将机器人添加为管理员。
-3. 获取群组 ID。这一步可以通过邀请 [@sc_ui_bot](https://t.me/sc_ui_bot) 到群组中并发送`/id`来完成。
+3. 获取群组 ID。这一步可以通过邀请 [@get_tg_info_bot](https://t.me/get_tg_info_bot) 到群组中并发送`/id`来完成。
 4. 将 BetterForward 部署到服务器。
 
 任何发送给机器人的消息都将转发到群组中的相应主题。
@@ -46,7 +46,7 @@ docker run -d --name betterforward \
     -e LANGUAGE=zh_CN \
     -v /path/to/data:/app/data \
     --restart unless-stopped \
-    pplulee/betterforward:latest
+    jp0id/betterforward:latest
 ```
 
 ## 更新
@@ -68,8 +68,6 @@ containrrr/watchtower -cR \
 - `/ban`：阻止用户发送更多消息。此命令只能在对话中使用。
 - `/unban [用户 ID]`：解除对用户的封禁。如果没有指定用户 ID，该命令将适用于当前对话主题中的用户。
 
-## 交流社区
-
-- Telegram频道 [@betterforward](https://t.me/betterforward)
-
 请使用 `issues` 报告错误和提出功能请求。
+
+> forked from SideCloudGroup/BetterForward
