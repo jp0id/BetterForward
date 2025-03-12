@@ -796,7 +796,7 @@ class TGBot:
             if (response := self.get_setting('default_message')) is None:
                 self.bot.send_message(message.chat.id, _("I'm a bot that forwards messages, so please just tell me "
                                                          "what you want to say.") + "\n" +
-                                      "Powered by [BetterForward](https://github.com/SideCloudGroup/BetterForward)",
+                                      "Powered by [BetterForward](https://github.com/Jv0id/BetterForward)",
                                       parse_mode="Markdown",
                                       disable_web_page_preview=True)
             else:
